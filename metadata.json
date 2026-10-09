@@ -1,0 +1,8 @@
+{
+  "name": "Remix Pastas Yayi - Administrador y Menú Digital",
+  "description": "Aplicación de gestión de productos, combos y vinculación web para Pastas Yayi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

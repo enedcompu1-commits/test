@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #235C3B;
+  --color-brand-greenDark: #163E27;
+  --color-brand-greenLight: #2D754C;
+  --color-brand-greenSoft: #EDF6F0;
+  --color-brand-gold: #C6994E;
+  --color-brand-goldDark: #9E752D;
+  --color-brand-goldSoft: #FCF7EB;
+  --color-brand-cream: #F7F4EE;
+  --color-brand-dark: #19241C;
+  --color-brand-muted: #5A665D;
+
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.glass-nav {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+@keyframes subtlePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+.btn-pulse {
+  animation: subtlePulse 2.2s infinite ease-in-out;
+}
